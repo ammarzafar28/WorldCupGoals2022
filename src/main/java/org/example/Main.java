@@ -2,6 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        readData File = new readData();
+        File.readFile();
+        //System.out.println("Hello world!");
     }
 }
