@@ -8,7 +8,7 @@ public class readData {
     public void readFile() {
         Scanner scan = null;
         try {
-            File myObj = new File("/data/WorldCupGoals.csv");
+            File myObj = new File("../data/WorldCupGoals.csv");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
