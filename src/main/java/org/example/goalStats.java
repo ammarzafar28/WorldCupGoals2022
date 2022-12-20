@@ -39,7 +39,7 @@ public class goalStats {
     }
 
     // takes user input of player name and returns country and goals
-    public void playerName(){
+    public void playerName(String player){
         Scanner obj = new Scanner(System.in);
         System.out.println( "Enter a player name from the 2022 World Cup: " );
         String name = obj.nextLine();
@@ -48,7 +48,7 @@ public class goalStats {
     }
 
     // takes user input of country and returns all the players who scored goals for that country
-    public void countryName(){
+    public void countryName(String nation){
         Scanner obj = new Scanner(System.in);
         System.out.println( "Enter a country that contended in the 2022 World Cup: ");
         String country = obj.nextLine();
